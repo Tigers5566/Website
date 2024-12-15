@@ -1,0 +1,56 @@
+@keyframes color-change {
+    0% { color: #334fab;}
+  
+    35% { color: rgb(232, 72, 60);}
+
+    65% { color: rgb(232, 72, 60);}
+  
+    100% { color: #334fab;}
+}
+@keyframes color-change-background {
+    0% { background-color: #c4c8d3;}
+
+    35% { background-color: #1a1b1c;}
+
+    65% { background-color: #1a1b1c;}
+
+    100% { background-color: #c4c8d3}
+    
+}
+@keyframes color-change-rectangle {
+    0% { background-color: #334fab;}
+
+    35% { background-color: rgb(232, 72, 60);}
+
+    65% { background-color: rgb(232, 72, 60);}
+
+    100% { background-color: #334fab}
+    
+}
+
+
+body {
+    font-family: "inter",  sans-serif; /* Семейство шрифтов */
+    font-size: 24px; /* Размер основного шрифта в <p></p>  */
+    background-color: #c4c8d3; /* Цвет фона веб-страницы */
+    color: #334fab; /* Цвет основного текста */ 
+    animation: color-change-background 7s;
+    
+}
+
+h2 {
+    font-family: "inter",  sans-serif; /* Семейство шрифтов */
+    color: #334fab; /* Цвет заголовка */
+    font-size: 52px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+    animation: color-change 7s;
+}
+
+p {
+    animation: color-change 7s;
+}
+ul {
+    animation: color-change 7s;
+}
+
+#rectangle { width: 1862px; height: 4px; background: #334fab; animation: color-change-rectangle 7s; }
